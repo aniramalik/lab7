@@ -1,0 +1,22 @@
+Package: Lab7
+Title: Lab 7
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Anira",
+           family = "Malik",
+           role = c("aut", "cre"),
+           email = "amalik04@calpoly.edu")
+Description: This is a practice package for coursework.
+License: What license it uses
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    dplyr,
+    glue,
+    stringr,
+    magrittr,
+    purrr
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.0
+Suggests: 
+    testthat
